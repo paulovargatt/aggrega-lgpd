@@ -61,3 +61,7 @@ $(document).ready(function() {
        }
        lastScrollTop = st;
    }
+
+   function initAds() {
+       $('.ads-container').fadeIn();
+   }
