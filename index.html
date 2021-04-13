@@ -30,7 +30,7 @@
         <div id="MagicMenu" class="nav-header">
             <div class="container">
                 <div class="logo float-left">
-                    <a href="#one"><img src="img/logo.svg" alt=""></a>
+                    <a href="#one">LGPD.BE</a>
                 </div>
                 <div class="menu-toggle float-right">
                     <img src="img/menu.svg" alt="Menu">
@@ -40,9 +40,11 @@
     </div>
     <div class="hero">
         <h1>Boas-vindas!</h1>
-        <h2>Esse é um exemplo de implementação do Bisc8<br></h2>
-        <div class="text-center ads-container " style="display: none">
-            <img src="img/sample.jpg" style="width: 100%; max-width:550px">
+        <p>Esse site simula a experiência de implementação do Plugin LGPD.be<br></p>
+        <div class="ct-ads-sample-lgpd">
+            <div class="text-center ads-container " style="display: none">
+                <img src="https://i.imgur.com/fbC1LEf.png" style="width: 100%; max-width:650px">
+            </div>
         </div>
     </div>
 
@@ -50,37 +52,44 @@
 
 
 <!-- Info Squares -->
-<section class="container-fluid info-squares">
+<section class="container info-squares">
     <div class="row no-gutter">
         <div class="col-lg-4 col-sm-4 col-xs-12">
             <div class="square">
                 <i class="fa fa-magic" aria-hidden="true"></i>
-                <h4>Customizável</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor <br>incididunt ut
-                    lab</p>
+                <h4>Cadastre seu domínio e crie seu Termo de Consentimento</h4>
+                <p>Você pode criar Termos com consentimentos dinâmicos, onde o usuário consciente decide quais dados
+                    aceita disponibilizar, nós salvamos o aceite do termo utilizando sua chave pública para criptografar
+                    os dados, mantendo a segurança e confiabilidade.</p>
             </div>
         </div>
         <div class="col-lg-4 col-sm-4 col-xs-12">
             <div class="square">
-                <i class="fa fa-diamond" aria-hidden="true"></i>
-                <h4>Consultoria exclusiva</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor <br>incididunt ut
-                    lab</p>
+                <i class="fa fa-code" aria-hidden="true"></i>
+                <h4>Instalação fácil</h4>
+                <p>Após gerar um Termo de consentimento você pode adicionar uma tag javascript em seu site</p>
+                <p>Basta colar o script e você está com o LGPD.be instalado
+
+                </p>
             </div>
         </div>
         <div class="col-lg-4 col-sm-4 col-xs-12">
             <div class="square">
                 <i class="fa fa-globe" aria-hidden="true"></i>
                 <h4>Sua empresa protegida</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor <br>incididunt ut
-                    lab</p>
+                <p>Gestão de diversos usuários com controle e informações via dashboards;</p>
+
+                <p>Gestão de consentimentos do usuário de acordo com o Termo;</p>
+
+                <p>Pedidos de Acesso e Remoção de dados pelo usuário;</p>
+
             </div>
         </div>
     </div>
 </section>
 
 <section class="footer">
-    <h4>© 2021 - <a href="https://github.com/AGGREGA" target="_blank"><span>Aggregando Group</span></a>, All Right
+    <h4>© 2021 - <a href="https://lgpd.be" target="_blank"><span>LGPD.BE</span></a>, All Right
         Reserved</h4>
 </section>
 
@@ -99,8 +108,8 @@
 
 <script>
     //Tag Marketing/Google Adsense
-    window.addEventListener("bisc8_clause_6yjSTDt6", function(e) {
-        if(e.detail.checked){
+    window.addEventListener("bisc8_clause_6yjSTDt6", function (e) {
+        if (e.detail.checked) {
             //Coloque aqui o src do script Google Adsense utilzado.
             initAds()
         }
